@@ -25,3 +25,5 @@ Route::post('addEmployee','EmployeeController@AddNewEmployee');
 
 // update Employee
 Route::post('updateEmployee/{id}','EmployeeController@updateEmployee');
+// delete employee
+Route::post('deleteEmployee/{id}','EmployeeController@DeleteEmployee');
