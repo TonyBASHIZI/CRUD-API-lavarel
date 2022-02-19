@@ -27,3 +27,10 @@ Route::post('addEmployee','EmployeeController@AddNewEmployee');
 Route::post('updateEmployee/{id}','EmployeeController@updateEmployee');
 // delete employee
 Route::post('deleteEmployee/{id}','EmployeeController@DeleteEmployee');
+// get all products
+Route::get('products','ProductController@getProducts');
+// get specific by detail product
+Route::get('products/{id}','ProductController@getProductById');
+
+
+
