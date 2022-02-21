@@ -31,6 +31,8 @@ Route::post('deleteEmployee/{id}','EmployeeController@DeleteEmployee');
 Route::get('products','ProductController@getProducts');
 // get specific by detail product
 Route::get('products/{id}','ProductController@getProductById');
+// add product
+Route::post('addProduct','ProductController@addProduct');
 
 
 

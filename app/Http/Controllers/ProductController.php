@@ -21,4 +21,10 @@ class ProductController extends Controller
 
         return response()->json($product);
     }
+    public function addProduct(Request $request)
+    {
+        $product = Product::create($request::all());
+
+        return response($product,200);
+    }
 }
